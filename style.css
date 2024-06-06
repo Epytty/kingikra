@@ -1,0 +1,694 @@
+@font-face {
+    font-family: 'bold';
+    src: url(/Практика/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'medium';
+    src: url(/Практика/fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(/Практика/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'roadRadio';
+    src: url(/Практика/fonts/roadradio_bold.otf)
+}
+
+body {
+    font-family: "regular", sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.headerUp {
+    display: flex;
+    margin: 0.5% 5% 0% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid rgba(90, 108, 125, .1);
+}
+
+.selectTown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 15%;
+}
+
+.townBtn {
+    font-size: 17px;
+    font-family: 'regular';
+    font-weight: 600;
+    border-style: none;
+    background: none;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+}
+
+.imgHeaderUp {
+    height: 25px;
+}
+
+.headerUp_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+}
+
+.headerPhone {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 15%;
+}
+
+.number {
+    text-decoration: none;
+    font-family: 'roadRadio';
+    font-size: 22px;
+    color: black;
+}
+
+.headerNav {
+    flex-grow: 1;
+    display: flex;
+    font-weight: 400;
+    font-family: 'medium';
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navItem {
+    text-decoration: none;
+    color: black;
+}
+
+#delivery {
+    color: #BF3B3B;
+}
+
+.callBtn {
+    white-space: nowrap;
+    height: 48px;
+    font-weight: 600;
+    font-family: 'roadRadio';
+    font-size: 17px;
+    color: white;
+    background-color: #BF3B3B;
+    border-radius: 10px;
+    border-style: none;
+    padding: 0px 30px 0px 30px;
+}
+
+.headerMiddle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 5% 0% 3%;
+}
+
+.siteText {
+    width: 14%;
+    font-size: 17px;
+    font-family: 'medium', sans-serif;
+    font-weight: 400;
+}
+
+.logotype {
+    width: 20%;
+}
+
+.findImg {
+    display: flex;
+    height: 25px;
+}
+
+.btns {
+    display: flex;
+    gap: 20%;
+    font-family: 'bold', sans-serif;
+    font-weight: 700;
+}
+
+.find {
+    display: flex;
+    background-color: #eff3f6;
+    height: 50px;
+    align-items: center;
+    width: 40%;
+    font-family: 'roadRadio', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    font-size: 18px;
+    gap: 5%;
+}
+
+.find input {
+    width: 90%;
+    border: none;
+}
+
+.headerMiddleBtn {
+    border: none;
+    background: none;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'roadRadio';
+    display: flex;
+    flex-direction: column;
+}
+
+.headerMiddleImg {
+    width: 30px;
+}
+
+.korzina {
+    display: flex;
+    gap: 10%; 
+}
+
+.sumText {
+    white-space: nowrap;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'medium';
+    color: #484848;
+}
+
+.sumText span {
+    font-weight: 900;
+    font-size: 25px;
+    font-family: 'bold'; 
+    color: black;
+}
+
+.cartImg {
+    width: 30px;
+}
+
+.cartBtn {
+    border-radius: 50%;
+    border: none;
+    height: 60px;
+    width: 90px;
+    justify-content: center;
+    background-color: #BF3B3B;
+}
+
+.rightpart {
+    display: flex;
+    gap: 15%;
+}
+
+.headerDown {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 3% 0% 3%;
+}
+
+.headerDownBtn, .menuBtn {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #BF3B3B;
+    color: white;
+    font-weight: 400;
+    font-family: 'roadRadio';
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    gap: 5%;
+}
+
+.katalogImg {
+    width: 30px;
+}
+
+.vkItem {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #5a6c7d;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'roadRadio';
+}
+
+.katalogItemImg {
+    width: 40px;
+}
+
+footer {
+    display: flex;
+    background-color: #001A34;
+    font-size: 17px;
+    color: white;
+    padding: 1% 0% 5% 0%;
+    gap: 4.5%;
+}
+
+.footer_leftPart {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.lPleft {
+    float: left;
+    width: 32%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footerLogo {
+    width: 95%;
+}
+
+.footerHr {
+    width: 40%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerText {
+    color: #5a6c7d;
+    width: 105%;
+}
+
+.footerTextH3 {
+    width: 100%;
+    font-size: 14px;
+}
+
+.redH3 {
+    font-family: 'roadRadio';
+    font-weight: 900;
+    font-size: 25px;
+    color: #BF3B3B;
+}
+
+.footerBtn1, .footerBtn2, .footerBtn3 {
+    border: none;
+    border-radius: 10px;
+    height: 15%;
+    font-size: 14px;
+    background-color:#eff3f6;
+    color: #BF3B3B;
+    font-weight: 600;
+    font-family: 'roadRadio';
+}
+
+.footerBtn1 {
+    width: 90%;
+}
+
+.footerBtn2 {
+    width: 65%;
+}
+
+.footerBtn3 {
+    width: 45%;
+    height: 65%;
+}
+
+.footerInfoItem {
+    display: flex;
+    width: 90%;
+    text-align: start;
+    gap: 10%;
+}
+
+#img1 {
+    width: 17px;
+    height: 20px;
+}
+
+#img2, #img3 {
+    width: 18px;
+    height: 18px;
+}
+
+.footer_middlePart {
+    display: flex;
+    gap: 30%;
+}
+
+.whiteH3 {
+    white-space: nowrap;
+    font-family: 'roadRadio';
+}
+
+.katalogInfo, .goodInfo {
+    width: 280px;
+}
+
+.footer_rightPart {
+    display: flex;
+    flex-direction: column;
+}
+
+.rassilka {
+    height: 25%;
+    width: 190%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerEmailInput {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    font-family: 'medium';
+    font-weight: 600;
+    background: none;
+    height: 65%;
+    width: 50%;
+}
+
+.oplata {
+    display: flex;
+    max-width: 35%;
+    gap: 25%;
+}
+
+.oplataImg {
+    height: 25px;
+    margin-right: 15%;
+}
+
+.socBtns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socBtnItem {
+    height: 50px;
+    width: 50px;
+    /* background: none; */
+    border-color: #5a6c7d;
+    border-radius: 10px;
+}
+
+.mainContent {
+    margin: 0% 3% 3% 3%;
+}
+
+.new, .hits, .recomented {
+    display: flex;
+    justify-content:space-between;
+    transition: transform 1.5s ease;
+    gap: 30px;
+    margin-right: 3%;
+}
+
+.tovarItem {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    flex: 0 0 auto;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F5F8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tovarImg {
+    width: 230px;
+    height: 230px;
+}
+
+.nameText {
+    font-family: 'regular';
+    font-weight: 600;
+    margin: 3% 0% 3% 0%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border: solid 1px #D6DADE;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.akcia {
+    color:#484848;
+    text-decoration: line-through;
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.priceText {
+    font-family: 'medium';
+    font-weight: 800;
+    color: #BF3B3B;
+    font-size: 17px;
+    margin-left: 1%;
+}
+
+.inKorzina {
+    border: none;
+    background: none;
+    font-family: 'roadRadio';
+    font-weight: 600;
+    color: #BF3B3B;
+    font-size: 17px;
+    margin-right: 1%;
+    border-left: solid 1px #D6DADE;
+    height: 100%;
+}
+
+.h1 {
+    font-family: "roadRadio";
+    font-weight: 800;
+    color: #484848;
+}
+
+.itemDelivery img {
+    width: 12%;
+}
+
+.upPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reklama {
+    width: 80%;
+    height: 456px;
+    border-radius: 15px;
+}
+
+.dayTovar {
+    width: 16%;
+}
+
+.dayUp {
+    display: flex;
+    background-color: #BF3B3B;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 15%;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 3%;
+    align-items: center;
+}
+
+.dayUp img {
+    width: 10%;
+}
+
+.dayUpText {
+    color: white;
+    font-family: 'roadRadio';
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.dayMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dayTovarImg {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.dayNameText {
+    font-family: 'regular';
+    font-weight: 600;
+    margin: 3% 0% 3% 0%;
+}
+
+.middleStroke {
+    display: flex;
+    gap: 8%;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.itemMiddleStroke {
+    display: flex;
+    gap: 20%;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.dayDelivery {
+    font-family: medium;
+    text-align: center;
+    font-weight: 600;
+    color:#484848;
+    font-size: 15px;
+}
+
+.carDelivery {
+    width: 14%;
+    margin-right: 5px;
+}
+
+.oneClick {
+    font-family: 'roadRadio';
+    background-color: #D6DADE;
+    color: #484848;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.dayPrice {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    border: solid 1px #D6DADE;
+    align-items: center;   
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.loyality {
+    margin: 3% 0% 3% 0%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loyalityBack {
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+
+.loyalityBack img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.loyalityText {
+    font-family: 'roadRadio';
+    font-weight: 900;
+    font-size: 45px;
+    color:#F2F5F8
+}
+
+.icoText {
+font-family: 'medium';
+font-weight: 500;
+font-size: 20px;
+color:#F2F5F8;
+display: flex;
+align-items: center;
+gap: 15%;
+}
+
+.inLoyality {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin: 3% 0% 0% 10%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin: 5% 0% 3% 0%;
+}
+
+.icons img {
+    width: 6%;
+}
+
+.loyalityBtn {
+    display: flex;
+    justify-content: flex-start;
+    width: 55%;
+    height: 70px;
+    background-color: #eff3f6;
+    font-family: 'roadRadio';
+    font-weight: 900;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.newStroke, .hitsStroke, .recomentedStroke {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev, .next {
+    margin: 15px 15px 0px 0px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    color:#001A34;
+}
+
+a:hover {
+    color: #BF3B3B;
+}
+
+#delivery:hover {
+    color:#484848;
+}
